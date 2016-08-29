@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-gritcode",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=development tap test --cov",
+    "postinstall": "echo extends: gritcode/server > ../../.eslintrc.yml && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gritcode/module-eslint-config-gritcode.git"
+  },
+  "keywords": [],
+  "author": "Ben Cooling <gritcode@bcooling.com.au>",
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-react": "^6.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-react": "^6.1.2",
+    "tap": "^6.2.0"
+  }
+}
