@@ -12,8 +12,7 @@ Unfortunately [eslint shareable configs do not resolve dependencies](https://git
 ```bash
 npm i -D babel-eslint@^6.1.2 eslint@^3.3.1 eslint-config-airbnb@^10.0.1  \
 eslint-plugin-jsx-a11y@^2.1.0 eslint-plugin-import@^1.13.0 \
-eslint-plugin-react@^6.1.2 \
-git+ssh://git@github.com/gritcode/module-eslint-config-gritcode.git
+eslint-plugin-react@^6.1.2 gritcode/module-eslint-config-gritcode.git
 ```
 
 ## Atom setup    
