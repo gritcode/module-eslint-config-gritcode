@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=development tap test --cov",
-    "postinstall": "echo extends: gritcode/server > ../../.eslintrc.yml && exit 0"
+    "postinstall": "echo extends: gritcode/server > ../../.eslintrc.yml"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "Ben Cooling <gritcode@bcooling.com.au>",
   "license": "UNLICENSED",
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": "^6.1.2",
     "eslint": "^3.3.1",
     "eslint-config-airbnb": "^10.0.1",
