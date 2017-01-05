@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=development tap test --cov"
+    "test": "NODE_ENV=development tap test --cov",
+    "postinstall": "echo extends: gritcode/server > ../../.eslintrc.yml && exit 0"
   },
   "repository": {
     "type": "git",
