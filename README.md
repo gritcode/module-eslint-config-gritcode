@@ -2,17 +2,31 @@
 
 > Gritcode specific javascript linting
 
-
 No additional configuration should be required; upon installation, eslint-config-gritcode adds an .eslintrc.yml into the project root.
-
 
 ## Project setup  
 Unfortunately [eslint shareable configs do not resolve dependencies](https://github.com/eslint/eslint/issues/3843) so we need to install all the dev dependencies for each project.  
 
+**Server**  
 ```bash
-npm i -D babel-eslint@^6.1.2 eslint@^3.3.1 eslint-config-airbnb@^10.0.1  \
-eslint-plugin-jsx-a11y@^2.1.0 eslint-plugin-import@^1.13.0 \
-eslint-plugin-react@^6.1.2 gritcode/module-eslint-config-gritcode.git
+npm i -D \
+babel-eslint@^6.1.2 \
+eslint@^3.3.1 \
+eslint-config-airbnb@^10.0.1 \
+eslint-plugin-import@^1.13.0 \
+gritcode/module-eslint-config-gritcode.git
+```
+
+**Browser**  
+```bash
+npm i -D \
+babel-eslint@^6.1.2 \
+eslint@^3.3.1 \
+eslint-config-airbnb@^10.0.1  \
+eslint-plugin-jsx-a11y@^2.1.0 \
+eslint-plugin-import@^1.13.0 \
+eslint-plugin-react@^6.1.2 \
+gritcode/module-eslint-config-gritcode.git
 ```
 
 ## Atom setup    
