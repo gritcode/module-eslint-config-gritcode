@@ -9,7 +9,7 @@ Unfortunately [eslint shareable configs do not resolve dependencies](https://git
 
 **Server**  
 ```bash
-npm i -D \
+npm i -O \
 babel-eslint@^6.1.2 \
 eslint@^3.3.1 \
 eslint-config-airbnb@^10.0.1 \
@@ -19,7 +19,7 @@ gritcode/module-eslint-config-gritcode.git
 
 **Browser**  
 ```bash
-npm i -D \
+npm i -O \
 babel-eslint@^6.1.2 \
 eslint@^3.3.1 \
 eslint-config-airbnb@^10.0.1  \
